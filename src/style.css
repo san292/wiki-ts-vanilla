@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(156, 156, 238);
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.wiki-header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    hsla(120, 6%, 90%, 1) 0%,
+    hsla(228, 75%, 16%, 1) 100%
+  );
+
+  color: #fff;
+  font-size: 14px;
+}
+
+.wiki-header span {
+  font-size: 1.5rem;
+  color: black;
+  background: #fff;
+}
+.wiki-input {
+  border-radius: 30px;
+  padding: 0.5rem;
+  width: 14rem;
+  border: 0.1px solid rgb(205, 199, 199);
+}
